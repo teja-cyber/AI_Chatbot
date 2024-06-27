@@ -1,0 +1,834 @@
+{
+    "responses": [
+      {
+        "input": "Hi",
+        "response": "Hello there! How can I assist you today?"
+      },
+      {
+        "input": "Hello",
+        "response": "Hi! I'm here to help. What can I do for you?"
+      },
+      {
+        "input": "Bye",
+        "response": "Goodbye! Take care and have a great day!"
+      },
+      {
+        "input": "default",
+        "response": "I'm sorry, I didn't quite understand that. Could you please rephrase?"
+      },
+      {
+        "input": "login",
+        "response": "Welcome {name}! I'm your personal health assistant bot. I'm here to provide information and help with any questions you have. Feel free to ask me anything!"
+      },
+      {
+        "input": "description",
+        "response": "I'm a personal assistant bot designed to provide information and assistance on a wide range of topics. Whether you need advice on health, education, technology, or more, I'm here to help! Just ask me anything you'd like to know."
+      },
+      {
+        "input": "What are the symptoms of the common cold?",
+        "response": "Common cold symptoms include runny or stuffy nose, sore throat, cough, congestion, slight body aches, and mild fatigue. It is usually not accompanied by fever."
+      },
+      {
+        "input": "What should I do if I have a fever?",
+        "response": "If you have a fever, rest and stay hydrated. You can take over-the-counter medications like acetaminophen or ibuprofen to reduce fever and alleviate discomfort. Seek medical attention if your fever persists or if you have other concerning symptoms."
+      },
+      {
+        "input": "How can I prevent the flu?",
+        "response": "To prevent the flu, get vaccinated annually. Wash your hands frequently with soap and water, avoid close contact with sick individuals, and practice good respiratory hygiene by covering your mouth and nose when coughing or sneezing."
+      },
+      {
+        "input": "What are the signs of dehydration?",
+        "response": "Signs of dehydration include dark urine, infrequent urination, dry mouth, fatigue, dizziness, and increased thirst. If you experience severe dehydration, seek medical attention."
+      },
+      {
+        "input": "What are the benefits of regular exercise?",
+        "response": "Regular exercise provides numerous health benefits, including improved cardiovascular health, weight management, stronger muscles and bones, better mental health, and increased energy levels."
+      },
+      {
+        "input": "How can I improve my diet?",
+        "response": "To improve your diet, focus on consuming a variety of fruits and vegetables, whole grains, lean proteins, and healthy fats. Limit intake of processed foods, sugary beverages, and excessive salt."
+      },
+      {
+        "input": "What are the symptoms of a heart attack?",
+        "response": "Symptoms of a heart attack include chest pain or discomfort, shortness of breath, nausea, lightheadedness, and pain or discomfort in the arms, back, neck, jaw, or stomach. Seek immediate medical help if you suspect a heart attack."
+      },
+      {
+        "input": "How can I manage stress?",
+        "response": "To manage stress, practice relaxation techniques such as deep breathing, meditation, yoga, or progressive muscle relaxation. Engage in regular physical activity, maintain a healthy diet, and get enough sleep."
+      },
+      {
+        "input": "What are the benefits of getting enough sleep?",
+        "response": "Adequate sleep is essential for overall health and well-being. It supports brain function, improves concentration and productivity, enhances immune function, and promotes emotional well-being."
+      },
+      {
+        "input": "How can I quit smoking?",
+        "response": "To quit smoking, consider using nicotine replacement therapies like patches or gum, join a support group, or seek counseling. Set a quit date and remove smoking triggers from your environment."
+      },
+      {
+        "input": "What is the importance of regular health check-ups?",
+        "response": "Regular health check-ups allow healthcare providers to detect and treat health conditions early, before they become more serious. They also provide an opportunity to discuss preventive measures and lifestyle changes."
+      },
+      {
+        "input": "What are the benefits of maintaining a healthy weight?",
+        "response": "Maintaining a healthy weight reduces the risk of chronic diseases such as diabetes, heart disease, and certain cancers. It also improves overall energy levels, mobility, and quality of life."
+      },
+      {
+        "input": "How can I protect myself from skin cancer?",
+        "response": "Protect yourself from skin cancer by wearing sunscreen with SPF 30 or higher, seeking shade during peak sun hours, wearing protective clothing like hats and sunglasses, and avoiding indoor tanning."
+      },
+      {
+        "input": "What are the benefits of drinking water?",
+        "response": "Drinking water helps maintain bodily functions, regulate body temperature, flush out toxins, and support healthy skin. It is essential for overall hydration and well-being."
+      },
+      {
+        "input": "What is the importance of mental health?",
+        "response": "Mental health is crucial for emotional resilience, effective coping mechanisms, and overall well-being. It affects how we think, feel, and behave in daily life."
+      },
+      {
+        "input": "How can I prevent back pain?",
+        "response": "To prevent back pain, maintain good posture, lift objects properly, engage in regular physical activity to strengthen back muscles, and avoid prolonged sitting or standing."
+      },
+      {
+        "input": "What are the symptoms of diabetes?",
+        "response": "Symptoms of diabetes include increased thirst, frequent urination, extreme hunger, unexplained weight loss, fatigue, blurred vision, and slow-healing sores. Consult a healthcare professional for diagnosis and management."
+      },
+      {
+        "input": "How can I lower my cholesterol levels?",
+        "response": "Lower cholesterol levels by adopting a heart-healthy diet low in saturated fats and trans fats, exercising regularly, maintaining a healthy weight, quitting smoking, and managing stress."
+      },
+      {
+        "input": "What are the benefits of a balanced diet?",
+        "response": "A balanced diet provides essential nutrients, vitamins, and minerals necessary for optimal health. It supports growth and development, boosts energy levels, and enhances overall well-being."
+      },
+      {
+        "input": "How can I improve my posture?",
+        "response": "To improve posture, practice exercises that strengthen core muscles, maintain a neutral spine alignment while sitting and standing, and use ergonomic furniture and equipment."
+      },
+      {
+        "input": "What are the symptoms of anxiety?",
+        "response": "Symptoms of anxiety include excessive worry, restlessness, fatigue, difficulty concentrating, irritability, muscle tension, and sleep disturbances. Seek professional help if anxiety symptoms persist."
+      },
+      {
+        "input": "What are the benefits of physical therapy?",
+        "response": "Physical therapy helps restore mobility, alleviate pain, and improve physical function. It is beneficial for recovering from injuries, managing chronic conditions, and enhancing overall quality of life."
+      },
+      {
+        "input": "How can I improve my cardiovascular health?",
+        "response": "To improve cardiovascular health, engage in aerobic exercises such as brisk walking, jogging, cycling, or swimming. Maintain a heart-healthy diet, manage stress, and avoid tobacco use."
+      },
+      {
+        "input": "What are the symptoms of depression?",
+        "response": "Symptoms of depression include persistent sadness, loss of interest in activities once enjoyed, changes in appetite and sleep patterns, fatigue, feelings of worthlessness or guilt, and thoughts of suicide."
+      },
+      {
+        "input": "How can I strengthen my immune system?",
+        "response": "To strengthen the immune system, maintain a balanced diet rich in fruits, vegetables, lean proteins, and whole grains. Get regular exercise, manage stress, get enough sleep, and avoid smoking."
+      },
+      {
+        "input": "What are the benefits of regular dental check-ups?",
+        "response": "Regular dental check-ups help prevent dental problems such as cavities, gum disease, and oral infections. They also promote early detection and treatment of oral health issues."
+      },
+      {
+        "input": "How can I prevent osteoporosis?",
+        "response": "To prevent osteoporosis, consume adequate calcium and vitamin D through diet or supplements, engage in weight-bearing exercises like walking or dancing, avoid smoking, and limit alcohol consumption."
+      },
+      {
+        "input": "What are the signs of a stroke?",
+        "response": "Signs of a stroke include sudden numbness or weakness in the face, arm, or leg, especially on one side of the body; confusion; trouble speaking or understanding speech; sudden trouble seeing in one or both eyes; and sudden severe headache with no known cause."
+      },
+      {
+        "input": "How can I manage arthritis pain?",
+        "response": "Manage arthritis pain by staying physically active with low-impact exercises, applying hot or cold therapy, using assistive devices like braces or splints, maintaining a healthy weight, and taking prescribed medications."
+      },
+      {
+        "input": "What are the benefits of getting a flu shot?",
+        "response": "Getting a flu shot reduces the risk of contracting seasonal influenza, decreases the severity of symptoms if you do get sick, and helps protect vulnerable populations like young children and the elderly."
+      },
+      {
+        "input":"i have a headache",
+        "response":"A headache is pain or discomfort in the head or face area. Types of headaches include migraine, tension, and cluster. Headaches can be primary or secondary. If it is secondary, it is caused by another condition."
+      },
+      {
+        "input": "What are the signs of a concussion?",
+        "response": "Signs of a concussion include headache, confusion or feeling dazed, temporary loss of consciousness, dizziness, nausea or vomiting, slurred speech, and delayed response to questions."
+      },
+      {
+        "input": "How can I improve my digestive health?",
+        "response": "To improve digestive health, eat a high-fiber diet rich in fruits, vegetables, and whole grains. Stay hydrated, manage stress, limit fatty foods, and avoid smoking and excessive alcohol consumption."
+      },
+      {
+        "input": "What are the symptoms of allergies?",
+        "response": "Symptoms of allergies include sneezing, runny or stuffy nose, itchy or watery eyes, itching of the skin or throat, coughing, wheezing, and shortness of breath. Allergies can be managed with medications and allergen avoidance."
+      },
+      {
+        "input": "How can I reduce the risk of high blood pressure?",
+        "response": "Reduce the risk of high blood pressure by maintaining a healthy weight, following a balanced diet low in sodium and saturated fats, exercising regularly, limiting alcohol consumption, and managing stress."
+      },
+      {
+        "input": "What are the benefits of regular mammograms?",
+        "response": "Regular mammograms can detect breast cancer early when treatment is most effective. They help identify abnormalities like lumps or masses in the breast tissue."
+      },
+      {
+        "input": "How can I protect myself from sexually transmitted infections?",
+        "response": "Protect yourself from sexually transmitted infections (STIs) by using condoms consistently and correctly, getting tested regularly, limiting sexual partners, and communicating openly with your healthcare provider."
+      },
+      {
+        "input": "What are the signs of heat stroke?",
+        "response": "Signs of heat stroke include high body temperature, altered mental state or behavior, nausea and vomiting, flushed skin, rapid breathing, and rapid pulse. It is a medical emergency requiring immediate treatment."
+      },
+      {
+        "input": "How can I improve my lung health?",
+        "response": "To improve lung health, avoid exposure to tobacco smoke and other pollutants, exercise regularly to improve lung capacity, practice deep breathing exercises, and maintain good indoor air quality."
+      },
+      {
+        "input": "What are the benefits of regular eye exams?",
+        "response": "Regular eye exams help detect vision problems such as nearsightedness, farsightedness, and astigmatism. They also allow for early detection of eye diseases like glaucoma and cataracts."
+      },
+      {
+        "input": "How can I maintain good oral hygiene?",
+        "response": "Maintain good oral hygiene by brushing your teeth twice a day with fluoride toothpaste, flossing daily, using mouthwash, and visiting your dentist regularly for check-ups and cleanings."
+      },
+      {
+        "input": "What are the signs of sleep apnea?",
+        "response": "Signs of sleep apnea include loud snoring, episodes of stopped breathing during sleep witnessed by others, abrupt awakenings accompanied by gasping or choking, daytime sleepiness, and difficulty concentrating."
+      },
+      {
+        "input": "How can I manage eczema flare-ups?",
+        "response": "Manage eczema flare-ups by moisturizing regularly, avoiding triggers like certain fabrics or chemicals, taking short lukewarm baths, using gentle skincare products, and using prescribed medications as directed."
+      },
+      {
+        "input": "What are the benefits of regular Pap smears?",
+        "response": "Regular Pap smears help detect abnormal cervical cells early, before they develop into cervical cancer. They are an essential part of preventive healthcare for women."
+      },
+      {
+        "input": "How can I prevent food poisoning?",
+        "response": "Prevent food poisoning by practicing good food safety habits such as washing hands and surfaces often, separating raw meat from other foods, cooking foods to proper temperatures, and refrigerating leftovers inputly."
+      },
+      {
+        "input": "What are the symptoms of a urinary tract infection (UTI)?",
+        "response": "Symptoms of a urinary tract infection include a strong, persistent urge to urinate, burning sensation when urinating, passing frequent, small amounts of urine, urine that appears cloudy, red or pink-tinged urine, and strong-smelling urine."
+      },
+      {
+        "input": "How can I improve my kidney health?",
+        "response": "To improve kidney health, stay hydrated by drinking plenty of water, maintain a balanced diet low in sodium and processed foods, exercise regularly, avoid smoking, and manage chronic conditions like diabetes and hypertension."
+      },
+      {
+        "input": "What are the signs of glaucoma?",
+        "response": "Signs of glaucoma include gradual loss of peripheral vision, tunnel vision in advanced stages, blurred vision, halo effects around lights, and severe eye pain or headache."
+      },
+      {
+        "input": "How can I manage menopause symptoms?",
+        "response": "Manage menopause symptoms by staying physically active, eating a balanced diet, practicing relaxation techniques, getting enough sleep, and discussing hormone therapy or other treatments with your healthcare provider."
+      },
+      {
+        "input": "What are the benefits of regular prostate exams?",
+        "response": "Regular prostate exams help detect prostate cancer early, when treatment is most effective. They include a digital rectal exam (DRE) and a prostate-specific antigen (PSA) blood test."
+      },
+      {
+        "input": "How can I reduce the risk of stroke?",
+        "response": "Reduce the risk of stroke by maintaining a healthy diet low in saturated fats and cholesterol, exercising regularly, managing blood pressure and cholesterol levels, maintaining a healthy weight, and avoiding tobacco and excessive alcohol."
+      },
+      {
+        "input": "What are the signs of osteoarthritis?",
+        "response": "Signs of osteoarthritis include joint pain, stiffness, tenderness, limited range of motion, and swelling. Symptoms may worsen over time and can affect any joint, but commonly affect the knees, hips, hands, and spine."
+      },
+      {
+        "input": "How can I protect my hearing?",
+        "response": "Protect your hearing by limiting exposure to loud noises, wearing ear protection in noisy environments, taking breaks during prolonged exposure to loud sounds, and getting regular hearing check-ups."
+      },
+      {
+        "input": "What are the benefits of breastfeeding?",
+        "response": "Breastfeeding provides essential nutrients and antibodies that help protect infants from infections and diseases. It promotes bonding between mother and baby and may reduce the risk of allergies and obesity."
+      },
+      {
+        "input": "How can I manage asthma symptoms?",
+        "response": "Manage asthma symptoms by avoiding triggers like allergens and irritants, taking prescribed medications as directed, monitoring lung function, and having an asthma action plan."
+      },
+      {
+        "input": "What are the signs of anemia?",
+        "response": "Signs of anemia include fatigue, weakness, pale or yellowish skin, irregular heartbeats, shortness of breath, dizziness or lightheadedness, and cold hands and feet."
+      },
+      {
+        "input": "How can I improve my bone health?",
+        "response": "To improve bone health, consume adequate calcium and vitamin D, engage in weight-bearing exercises like walking or dancing, avoid smoking and excessive alcohol, and discuss bone density testing with your healthcare provider."
+      },
+      {
+        "input": "What are the symptoms of Alzheimer's disease?",
+        "response": "Symptoms of Alzheimer's disease include memory loss, confusion, difficulty with problem-solving or planning, mood swings, and changes in personality or behavior. Early diagnosis and treatment can help manage symptoms."
+      },
+      {
+        "input": "How can I protect myself from HIV/AIDS?",
+        "response": "Protect yourself from HIV/AIDS by using condoms consistently and correctly, getting tested regularly, limiting sexual partners, and avoiding sharing needles or other injection equipment."
+      },
+      {
+        "input": "What are the signs of pneumonia?",
+        "response": "Signs of pneumonia include cough, fever, chills, shortness of breath, chest pain when breathing or coughing, fatigue, and nausea or vomiting. Seek medical attention if you suspect pneumonia."
+      },
+      {
+        "input": "How can I manage chronic pain?",
+        "response": "Manage chronic pain through a combination of treatments including medications, physical therapy, acupuncture, massage therapy, and lifestyle changes. Work closely with healthcare providers to develop a personalized pain management plan."
+      },
+      {
+        "input": "What are the benefits of prenatal care?",
+        "response": "Prenatal care helps monitor the health of both mother and baby during pregnancy. It includes regular check-ups, screenings, and education on healthy pregnancy practices."
+      },
+      {
+        "input": "How can I reduce the risk of colorectal cancer?",
+        "response": "Reduce the risk of colorectal cancer by maintaining a healthy weight, eating a diet rich in fruits, vegetables, and whole grains, limiting red and processed meats, getting regular exercise, and undergoing recommended screenings."
+      },
+      {
+        "input": "What are the symptoms of rheumatoid arthritis?",
+        "response": "Symptoms of rheumatoid arthritis include joint pain, swelling, stiffness, fatigue, fever, and loss of appetite. It is an autoimmune disorder that primarily affects the joints."
+      },
+      {
+        "input": "How can I improve my fertility?",
+        "response": "To improve fertility, maintain a healthy weight, eat a balanced diet, manage stress, avoid smoking and excessive alcohol, and discuss any concerns with a fertility specialist."
+      },
+      {
+        "input": "What are the signs of depression in children?",
+        "response": "Signs of depression in children include sadness or hopelessness, irritability or anger, frequent crying, withdrawal from friends and activities, changes in appetite or sleep patterns, and poor academic performance."
+      },
+      {
+        "input": "How can I prevent gallstones?",
+        "response": "To prevent gallstones, maintain a healthy weight, eat a diet rich in fiber and low in cholesterol and fats, avoid rapid weight loss diets, and stay hydrated."
+      },
+      {
+        "input": "What are the symptoms of ADHD?",
+        "response": "Symptoms of ADHD (Attention-Deficit/Hyperactivity Disorder) include difficulty focusing or paying attention, hyperactivity, impulsivity, forgetfulness, and disorganization. It can affect children and adults."
+      },
+      {
+        "input": "How can I improve my skin health?",
+        "response": "To improve skin health, protect it from sun exposure by using sunscreen, moisturize regularly, avoid smoking and excessive alcohol consumption, eat a balanced diet, and manage stress."
+      },
+      {
+        "input": "What are the benefits of physical activity for children?",
+        "response": "Physical activity promotes healthy growth and development in children, improves cardiovascular health, strengthens muscles and bones, enhances coordination and balance, and supports mental well-being."
+      },
+      {
+        "input": "How can I prevent sports injuries?",
+        "response": "Prevent sports injuries by warming up and stretching before physical activity, using proper technique and equipment, staying hydrated, and allowing time for rest and recovery between workouts."
+      },
+      {
+        "input": "What are the signs of a concussion in children?",
+        "response": "Signs of a concussion in children include headache, nausea or vomiting, balance problems, dizziness, double or blurry vision, sensitivity to light or noise, and confusion."
+      },
+      {
+        "input": "How can I improve my child's nutrition?",
+        "response": "To improve your child's nutrition, offer a variety of nutritious foods including fruits, vegetables, whole grains, lean proteins, and dairy products. Limit sugary snacks and beverages, and encourage regular meals and snacks."
+      },
+      {
+        "input": "What are the signs of autism spectrum disorder (ASD)?",
+        "response": "Signs of autism spectrum disorder (ASD) include challenges with social skills, repetitive behaviors, speech and nonverbal communication differences, and unique strengths and differences in thinking and learning."
+      },
+      {
+        "input": "How can I support a loved one with Alzheimer's disease?",
+        "response": "Support a loved one with Alzheimer's disease by maintaining a predictable routine, providing clear and simple instructions, offering reassurance and emotional support, and seeking support from community resources."
+      },
+      {
+        "input": "What are the benefits of mental health counseling?",
+        "response": "Mental health counseling provides a safe space to explore thoughts, emotions, and behaviors, develop coping skills, improve communication, and promote overall emotional well-being."
+      },
+      {
+        "input": "How can I promote healthy eating habits in my family?",
+        "response": "Promote healthy eating habits in your family by modeling nutritious food choices, involving children in meal planning and preparation, offering a variety of foods, and creating a positive mealtime environment."
+      },
+      {
+        "input": "What are the signs of bipolar disorder?",
+        "response": "Signs of bipolar disorder include extreme mood swings that include emotional highs (mania or hypomania) and lows (depression), changes in energy and activity levels, and disruptions in sleep patterns."
+      },
+      {
+        "input": "How can I support a loved one with cancer?",
+        "response": "Support a loved one with cancer by offering emotional support, helping with daily tasks, providing transportation to appointments, researching treatment options, and encouraging open communication."
+      },
+      {
+        "input": "What are the benefits of regular cardiovascular exercise?",
+        "response": "Regular cardiovascular exercise strengthens the heart and lungs, improves circulation, lowers blood pressure and cholesterol levels, boosts energy levels, and supports overall cardiovascular health."
+      },
+      {
+        "input": "How can I help my child cope with anxiety?",
+        "response": "Help your child cope with anxiety by validating their feelings, teaching relaxation techniques like deep breathing or visualization, maintaining routines, and seeking professional support if needed."
+      },
+      {
+        "input": "What are the signs of malnutrition?",
+        "response": "Signs of malnutrition include unintended weight loss, fatigue, weakness, slow wound healing, dry or scaly skin, brittle hair and nails, and frequent infections."
+      },
+      {
+        "input": "How can I improve my self-esteem?",
+        "response": "To improve self-esteem, practice self-care, set realistic goals, challenge negative thoughts, surround yourself with supportive people, engage in activities you enjoy, and seek professional guidance if needed."
+      },
+      {
+        "input": "What are the benefits of breastfeeding for mothers?",
+        "response": "Breastfeeding offers benefits for mothers such as promoting bonding with the baby, aiding in postpartum weight loss, reducing the risk of certain cancers (breast and ovarian), and releasing hormones that promote maternal caregiving."
+      },
+      {
+        "input": "How can I prevent falls in older adults?",
+        "response": "Prevent falls in older adults by removing tripping hazards at home, installing grab bars in bathrooms, using non-slip mats, ensuring proper lighting, encouraging physical activity, and reviewing medications for side effects."
+      },
+      {
+        "input": "What are the signs of postpartum depression?",
+        "response": "Signs of postpartum depression include feelings of sadness, anxiety, or hopelessness, irritability or anger, changes in sleep or appetite, difficulty bonding with the baby, and thoughts of harming oneself or the baby."
+      },
+      {
+        "input": "How can I improve my child's dental health?",
+        "response": "Improve your child's dental health by brushing their teeth twice a day with fluoride toothpaste, flossing daily, limiting sugary snacks and beverages, scheduling regular dental check-ups, and applying dental sealants if recommended."
+      },
+      {
+        "input": "What are the signs of an allergic reaction?",
+        "response": "Signs of an allergic reaction include hives, itching, rash, swelling of the lips, tongue, or throat, nasal congestion, wheezing or difficulty breathing, and abdominal pain, nausea, or vomiting."
+      },
+      {
+        "input": "How can I support a loved one with PTSD?",
+        "response": "Support a loved one with PTSD by offering a listening ear, validating their experiences, encouraging self-care, helping with practical tasks, and assisting them in finding professional help if needed."
+      },
+      {
+        "input": "What are the benefits of social support?",
+        "response": "Social support provides emotional comfort, reduces feelings of loneliness and isolation, boosts self-esteem, encourages healthy behaviors, and provides practical assistance during challenging times."
+      },
+      {
+        "input": "How can I prevent constipation?",
+        "response": "Prevent constipation by consuming a high-fiber diet rich in fruits, vegetables, and whole grains, drinking plenty of fluids, exercising regularly, and establishing regular bowel habits."
+      },
+      {
+        "input": "What are the signs of a heart murmur?",
+        "response": "Signs of a heart murmur include abnormal heart sounds, such as whooshing or swishing noises, heard during a heartbeat. It may indicate an underlying heart condition and requires evaluation by a healthcare professional."
+      },
+      {
+        "input": "How can I improve my child's sleep habits?",
+        "response": "To improve your child's sleep habits, establish a consistent bedtime routine, create a calm and comfortable sleep environment, limit screen time before bed, encourage regular physical activity, and ensure they get enough sleep."
+      },
+      {
+        "input": "What are the benefits of mindfulness meditation?",
+        "response": "Mindfulness meditation promotes relaxation, reduces stress and anxiety, improves focus and concentration, enhances self-awareness and emotional regulation, and fosters a sense of well-being."
+      },
+      {
+        "input": "How can I prevent deep vein thrombosis (DVT)?",
+        "response": "Prevent deep vein thrombosis (DVT) by maintaining a healthy weight, staying physically active, avoiding prolonged sitting or standing, wearing compression stockings if recommended, and discussing preventive measures with your healthcare provider."
+      },
+      {
+        "input": "What are the signs of endometriosis?",
+        "response": "Signs of endometriosis include pelvic pain, especially during menstruation, excessive menstrual bleeding, pain during intercourse, infertility, and gastrointestinal symptoms like diarrhea or constipation."
+      },
+      {
+        "input": "How can I manage chronic fatigue syndrome?",
+        "response": "Manage chronic fatigue syndrome by pacing activities, getting enough restorative sleep, engaging in gentle exercises like yoga or walking, managing stress, and working with healthcare providers to develop a treatment plan."
+      },
+      {
+        "input": "What are the benefits of family therapy?",
+        "response": "Family therapy helps improve communication and relationships within families, addresses conflicts and challenges, enhances problem-solving skills, and promotes understanding and support."
+      },
+      {
+        "input": "How can I prevent migraines?",
+        "response": "Prevent migraines by identifying and avoiding triggers like certain foods or stress, maintaining a regular sleep schedule, staying hydrated, practicing relaxation techniques, and taking prescribed medications as directed."
+      },
+      {
+        "input": "What are the signs of a food allergy?",
+        "response": "Signs of a food allergy include hives, itching, swelling of the lips, tongue, or throat, nasal congestion, wheezing, difficulty breathing, abdominal pain, nausea, vomiting, and dizziness or fainting."
+      },
+      {
+        "input": "How can I improve my child's social skills?",
+        "response": "To improve your child's social skills, encourage positive peer interactions, teach empathy and respect for others, role-play social situations, provide opportunities for group activities, and praise efforts to communicate effectively."
+      },
+      {
+        "input": "What are the signs of a concussion in teenagers?",
+        "response": "Signs of a concussion in teenagers include headache, nausea or vomiting, balance problems, dizziness, confusion, sensitivity to light or noise, and difficulty concentrating or remembering."
+      },
+      {
+        "input": "How can I support a loved one with schizophrenia?",
+        "response": "Support a loved one with schizophrenia by educating yourself about the condition, offering reassurance and emotional support, encouraging treatment adherence, and seeking support from mental health professionals."
+      },
+      {
+        "input": "What are the benefits of regular physical activity for older adults?",
+        "response": "Regular physical activity for older adults improves balance and flexibility, reduces the risk of falls, maintains cognitive function, enhances mood and emotional well-being, and promotes overall health."
+      },
+      {
+        "input": "How can I protect my child from cyberbullying?",
+        "response": "Protect your child from cyberbullying by educating them about online safety, encouraging open communication, setting clear rules for internet use, monitoring their online activity, and addressing incidents inputly."
+      },
+      {
+        "input": "What are the signs of an eating disorder?",
+        "response": "Signs of an eating disorder include severe restriction of food intake, binge eating, purging behaviors (vomiting or laxative use), obsessive thoughts about food, body dissatisfaction, and extreme weight fluctuations."
+      },
+      {
+        "input": "How can I promote healthy eating habits in teenagers?",
+        "response": "Promote healthy eating habits in teenagers by offering nutritious meals and snacks, involving them in meal planning and preparation, setting a positive example with your own food choices, and encouraging regular family meals."
+      },
+      {
+        "input": "What are the benefits of a Mediterranean diet?",
+        "response": "A Mediterranean diet offers benefits such as reduced risk of heart disease and stroke, improved cognitive function, lower inflammation, better weight management, and support for overall health and longevity."
+      },
+      {
+        "input": "How can I manage chronic sinusitis?",
+        "response": "Manage chronic sinusitis by using saline nasal sprays or rinses to clear nasal passages, using a humidifier to add moisture to the air, avoiding triggers like allergens or smoke, and taking prescribed medications as directed."
+      },
+      {
+        "input": "What are the signs of bipolar disorder in teenagers?",
+        "response": "Signs of bipolar disorder in teenagers include extreme mood swings that include emotional highs (mania) and lows (depression), changes in sleep or appetite, reckless behavior, and difficulty concentrating."
+      },
+      {
+        "input": "How can I improve my child's emotional intelligence?",
+        "response": "To improve your child's emotional intelligence, encourage them to identify and label their emotions, model healthy emotional expression, teach empathy and active listening, and provide opportunities to practice problem-solving skills."
+      },
+      {
+        "input": "What are the benefits of regular dental check-ups?",
+        "response": "Regular dental check-ups help prevent tooth decay, gum disease, and oral infections. They allow for early detection and treatment of dental issues, contributing to overall oral health."
+      },
+      {
+        "input": "How can I support a loved one with depression?",
+        "response": "Support a loved one with depression by offering emotional support, encouraging treatment adherence, listening without judgment, helping with daily tasks, and assisting them in seeking professional help."
+      },
+      {
+        "input": "What are the signs of kidney stones?",
+        "response": "Signs of kidney stones include severe pain in the back or side, pain that radiates to the lower abdomen or groin, pain with urination, pink, red, or brown urine, foul-smelling urine, and persistent need to urinate."
+      },
+      {
+        "input": "How can I manage allergies?",
+        "response": "Manage allergies by avoiding triggers like pollen, dust, or pet dander, using over-the-counter or prescription medications as directed, using air purifiers or filters, and seeking allergy testing or immunotherapy if recommended."
+      },
+      {
+        "input": "What are the signs of sepsis?",
+        "response": "Signs of sepsis include fever, increased heart rate, rapid breathing, confusion or disorientation, low blood pressure, and a change in urine output. It is a medical emergency requiring immediate attention."
+      },
+      {
+        "input": "How can I improve my child's reading skills?",
+        "response": "To improve your child's reading skills, encourage daily reading, provide a variety of books and reading materials, create a quiet and comfortable reading space, read together, and make reading enjoyable."
+      },
+      {
+        "input": "What are the benefits of regular vision screenings?",
+        "response": "Regular vision screenings help detect vision problems like nearsightedness, farsightedness, and astigmatism early, allowing for timely correction and prevention of potential vision loss."
+      },
+      {
+        "input": "How can I support a loved one with chronic pain?",
+        "response": "Support a loved one with chronic pain by offering understanding and empathy, helping with daily tasks, encouraging self-care and stress management techniques, and assisting them in accessing appropriate medical care."
+      },
+      {
+        "input": "What are the signs of skin cancer?",
+        "response": "Signs of skin cancer include changes in the size, shape, or color of moles or other skin lesions, the appearance of new growths, sores that don't heal, and changes in sensation such as itching or tenderness."
+      },
+      {
+        "input": "How can I promote positive body image in teenagers?",
+        "response": "Promote positive body image in teenagers by emphasizing health and well-being over appearance, encouraging self-acceptance and self-compassion, modeling positive behaviors, and addressing media influences on body image."
+      },
+      {
+        "input": "What are the benefits of regular cholesterol screenings?",
+        "response": "Regular cholesterol screenings help assess heart disease risk by measuring cholesterol levels. They allow for early detection and intervention to prevent or manage high cholesterol, reducing the risk of heart disease."
+      },
+      {
+        "input": "How can I support a loved one with hearing loss?",
+        "response": "Support a loved one with hearing loss by being patient and understanding, facing them when speaking, using clear and simple language, minimizing background noise, and encouraging the use of hearing aids or other assistive devices."
+      },
+      {
+        "input": "What are the signs of gestational diabetes?",
+        "response": "Signs of gestational diabetes include increased thirst, frequent urination, fatigue, nausea or vomiting, blurred vision, and recurrent infections. Screening is recommended during pregnancy to monitor blood sugar levels."
+      },
+      {
+        "input": "How can I improve my child's language development?",
+        "response": "To improve your child's language development, engage in conversations, read together daily, encourage storytelling and imaginative play, use rich and varied language, and be patient and responsive to their communication efforts."
+      },
+      {
+        "input": "What are the benefits of regular cholesterol screenings?",
+        "response": "Regular cholesterol screenings help assess heart disease risk by measuring cholesterol levels. They allow for early detection and intervention to prevent or manage high cholesterol, reducing the risk of heart disease."
+      },
+      {
+        "input": "How can I support a loved one with hearing loss?",
+        "response": "Support a loved one with hearing loss by being patient and understanding, facing them when speaking, using clear and simple language, minimizing background noise, and encouraging the use of hearing aids or other assistive devices."
+      },
+      {
+        "input": "What are the signs of gestational diabetes?",
+        "response": "Signs of gestational diabetes include increased thirst, frequent urination, fatigue, nausea or vomiting, blurred vision, and recurrent infections. Screening is recommended during pregnancy to monitor blood sugar levels."
+      },
+      {
+        "input": "How can I improve my child's language development?",
+        "response": "To improve your child's language development, engage in conversations, read together daily, encourage storytelling and imaginative play, use rich and varied language, and be patient and responsive to their communication efforts."
+      },
+      {
+        "input": "What are the signs of an asthma attack?",
+        "response": "Signs of an asthma attack include coughing, wheezing, shortness of breath, chest tightness, and difficulty speaking or walking. Immediate medical intervention may be needed to manage symptoms and prevent complications."
+      },
+      {
+        "input": "How can I support a loved one with bipolar disorder?",
+        "response": "Support a loved one with bipolar disorder by learning about the condition, offering encouragement and emotional support, promoting treatment adherence, and helping them develop coping strategies for managing symptoms."
+      },
+      {
+        "input": "What are the benefits of regular physical activity for mental health?",
+        "response": "Regular physical activity improves mood, reduces stress and anxiety, boosts self-esteem, promotes better sleep, enhances cognitive function, and supports overall mental well-being."
+      },
+      {
+        "input": "How can I promote resilience in children?",
+        "response": "Promote resilience in children by fostering supportive relationships, encouraging problem-solving and coping skills, teaching emotional regulation, promoting a positive self-identity, and encouraging a growth mindset."
+      },
+      {
+        "input": "What are the signs of bipolar disorder in adults?",
+        "response": "Signs of bipolar disorder in adults include extreme mood swings that include emotional highs (mania) and lows (depression), changes in sleep or activity levels, irritability, racing thoughts, and poor decision-making."
+      },
+      {
+        "input": "How can I help my child manage stress?",
+        "response": "To help your child manage stress, encourage open communication, teach relaxation techniques like deep breathing or mindfulness, maintain routines, encourage physical activity, and provide emotional support."
+      },
+      {
+        "input": "What are the signs of a concussion in adults?",
+        "response": "Signs of a concussion in adults include headache, nausea or vomiting, dizziness, confusion or memory problems, sensitivity to light or noise, and changes in mood or behavior."
+      },
+      {
+        "input": "How can I support a loved one with addiction?",
+        "response": "Support a loved one with addiction by expressing concern without judgment, encouraging them to seek treatment, providing emotional support, setting boundaries, and seeking support from addiction professionals or support groups."
+      },
+      {
+        "input": "What are the signs of an anxiety disorder?",
+        "response": "Signs of an anxiety disorder include excessive worry, restlessness, fatigue, difficulty concentrating, irritability, muscle tension, sleep disturbances, and physical symptoms such as rapid heart rate or sweating."
+      },
+      {
+        "input": "How can I promote healthy eating habits in my child?",
+        "response": "Promote healthy eating habits in your child by offering a variety of nutritious foods, involving them in meal planning and preparation, setting regular meal and snack times, and being a positive role model with your own food choices."
+      },
+      {
+        "input": "What are the benefits of regular strength training?",
+        "response": "Regular strength training increases muscle mass and strength, boosts metabolism, improves bone density, supports joint health, enhances functional abilities, and promotes overall physical fitness."
+      },
+      {
+        "input": "How can I help my child build resilience?",
+        "response": "To help your child build resilience, encourage problem-solving skills, foster supportive relationships, teach emotional regulation, promote a positive self-identity, and encourage them to learn from setbacks and challenges."
+      },
+      {
+        "input": "What are the signs of a stroke?",
+        "response": "Signs of a stroke include sudden numbness or weakness in the face, arm, or leg, especially on one side of the body, confusion, trouble speaking or understanding speech, difficulty walking, dizziness, and severe headache."
+      },
+      {
+        "input": "How can I manage high blood pressure?",
+        "response": "Manage high blood pressure by adopting a healthy lifestyle including a balanced diet, regular physical activity, weight management, limiting alcohol intake, reducing sodium consumption, and taking prescribed medications as directed."
+      },
+      {
+        "input": "What are the signs of preterm labor?",
+        "response": "Signs of preterm labor include regular contractions, menstrual-like cramps, low backache, pelvic pressure, changes in vaginal discharge, and abdominal cramps. Seek immediate medical attention if you experience these symptoms."
+      },
+      {
+        "input": "How can I promote physical activity in teenagers?",
+        "response": "Promote physical activity in teenagers by encouraging participation in sports, outdoor activities, or fitness classes, limiting screen time, setting a positive example with your own physical activity habits, and making exercise fun and social."
+      },
+      {
+        "input": "What are the signs of a concussion?",
+        "response": "Signs of a concussion include headache, nausea or vomiting, dizziness, confusion or memory problems, sensitivity to light or noise, and changes in mood or behavior. Rest and medical evaluation are essential for recovery."
+      },
+      {
+        "input": "How can I support a loved one with bipolar disorder?",
+        "response": "Support a loved one with bipolar disorder by learning about the condition, offering encouragement and emotional support, promoting treatment adherence, and helping them develop coping strategies for managing symptoms."
+      },
+      {
+        "input": "What are the benefits of regular physical activity for mental health?",
+        "response": "Regular physical activity improves mood, reduces stress and anxiety, boosts self-esteem, promotes better sleep, enhances cognitive function, and supports overall mental well-being."
+      },
+      {
+        "input": "How can I promote resilience in children?",
+        "response": "Promote resilience in children by fostering supportive relationships, encouraging problem-solving and coping skills, teaching emotional regulation, promoting a positive self-identity, and encouraging a growth mindset."
+      },
+      {
+        "input": "What are the signs of bipolar disorder in adults?",
+        "response": "Signs of bipolar disorder in adults include extreme mood swings that include emotional highs (mania) and lows (depression), changes in sleep or activity levels, irritability, racing thoughts, and poor decision-making."
+      },
+      {
+        "input": "How can I help my child manage stress?",
+        "response": "To help your child manage stress, encourage open communication, teach relaxation techniques like deep breathing or mindfulness, maintain routines, encourage physical activity, and provide emotional support."
+      },
+      {
+        "input": "What are the signs of a concussion in adults?",
+        "response": "Signs of a concussion in adults include headache, nausea or vomiting, dizziness, confusion or memory problems, sensitivity to light or noise, and changes in mood or behavior."
+      },
+      {
+        "input": "How can I support a loved one with addiction?",
+        "response": "Support a loved one with addiction by expressing concern without judgment, encouraging them to seek treatment, providing emotional support, setting boundaries, and seeking support from addiction professionals or support groups."
+      },
+      {
+        "input": "What are the signs of an anxiety disorder?",
+        "response": "Signs of an anxiety disorder include excessive worry, restlessness, fatigue, difficulty concentrating, irritability, muscle tension, sleep disturbances, and physical symptoms such as rapid heart rate or sweating."
+      },
+      {
+        "input": "How can I promote healthy eating habits in my child?",
+        "response": "Promote healthy eating habits in your child by offering a variety of nutritious foods, involving them in meal planning and preparation, setting regular meal and snack times, and being a positive role model with your own food choices."
+      },
+      {
+        "input": "What are the benefits of regular strength training?",
+        "response": "Regular strength training increases muscle mass and strength, boosts metabolism, improves bone density, supports joint health, enhances functional abilities, and promotes overall physical fitness."
+      },
+      {
+        "input": "How can I help my child build resilience?",
+        "response": "To help your child build resilience, encourage problem-solving skills, foster supportive relationships, teach emotional regulation, promote a positive self-identity, and encourage them to learn from setbacks and challenges."
+      },
+      {
+        "input": "What are the signs of a stroke?",
+        "response": "Signs of a stroke include sudden numbness or weakness in the face, arm, or leg, especially on one side of the body, confusion, trouble speaking or understanding speech, difficulty walking, dizziness, and severe headache."
+      },
+      {
+        "input": "How can I manage high blood pressure?",
+        "response": "Manage high blood pressure by adopting a healthy lifestyle including a balanced diet, regular physical activity, weight management, limiting alcohol intake, reducing sodium consumption, and taking prescribed medications as directed."
+      },
+      {
+        "input": "What are the signs of preterm labor?",
+        "response": "Signs of preterm labor include regular contractions, menstrual-like cramps, low backache, pelvic pressure, changes in vaginal discharge, and abdominal cramps. Seek immediate medical attention if you experience these symptoms."
+      },
+      {
+        "input": "How can I promote physical activity in teenagers?",
+        "response": "Promote physical activity in teenagers by encouraging participation in sports, outdoor activities, or fitness classes, limiting screen time, setting a positive example with your own physical activity habits, and making exercise fun and social."
+      },
+      {
+        "input": "What are the signs of a concussion?",
+        "response": "Signs of a concussion include headache, nausea or vomiting, dizziness, confusion or memory problems, sensitivity to light or noise, and changes in mood or behavior. Rest and medical evaluation are essential for recovery."
+      },
+      {
+        "input": "How can I support a loved one with bipolar disorder?",
+        "response": "Support a loved one with bipolar disorder by learning about the condition, offering encouragement and emotional support, promoting treatment adherence, and helping them develop coping strategies for managing symptoms."
+      },
+      {
+        "input": "What are the benefits of regular physical activity for mental health?",
+        "response": "Regular physical activity improves mood, reduces stress and anxiety, boosts self-esteem, promotes better sleep, enhances cognitive function, and supports overall mental well-being."
+      },
+      {
+        "input": "How can I promote resilience in children?",
+        "response": "Promote resilience in children by fostering supportive relationships, encouraging problem-solving and coping skills, teaching emotional regulation, promoting a positive self-identity, and encouraging a growth mindset."
+      },
+      {
+        "input": "What are the signs of bipolar disorder in adults?",
+        "response": "Signs of bipolar disorder in adults include extreme mood swings that include emotional highs (mania) and lows (depression), changes in sleep or activity levels, irritability, racing thoughts, and poor decision-making."
+      },
+      {
+        "input": "How can I help my child manage stress?",
+        "response": "To help your child manage stress, encourage open communication, teach relaxation techniques like deep breathing or mindfulness, maintain routines, encourage physical activity, and provide emotional support."
+      },
+      {
+        "input": "What are the signs of a concussion in adults?",
+        "response": "Signs of a concussion in adults include headache, nausea or vomiting, dizziness, confusion or memory problems, sensitivity to light or noise, and changes in mood or behavior."
+      },
+      {
+        "input": "How can I support a loved one with addiction?",
+        "response": "Support a loved one with addiction by expressing concern without judgment, encouraging them to seek treatment, providing emotional support, setting boundaries, and seeking support from addiction professionals or support groups."
+      },
+      {
+        "input": "What are the signs of an anxiety disorder?",
+        "response": "Signs of an anxiety disorder include excessive worry, restlessness, fatigue, difficulty concentrating, irritability, muscle tension, sleep disturbances, and physical symptoms such as rapid heart rate or sweating."
+      },
+      {
+        "input": "How can I promote healthy eating habits in my child?",
+        "response": "Promote healthy eating habits in your child by offering a variety of nutritious foods, involving them in meal planning and preparation, setting regular meal and snack times, and being a positive role model with your own food choices."
+      },
+      {
+        "input": "What are the benefits of regular strength training?",
+        "response": "Regular strength training increases muscle mass and strength, boosts metabolism, improves bone density, supports joint health, enhances functional abilities, and promotes overall physical fitness."
+      },
+      {
+        "input": "How can I help my child build resilience?",
+        "response": "To help your child build resilience, encourage problem-solving skills, foster supportive relationships, teach emotional regulation, promote a positive self-identity, and encourage them to learn from setbacks and challenges."
+      },
+      {
+        "input": "What are the signs of a stroke?",
+        "response": "Signs of a stroke include sudden numbness or weakness in the face, arm, or leg, especially on one side of the body, confusion, trouble speaking or understanding speech, difficulty walking, dizziness, and severe headache."
+      },
+      {
+        "input": "How can I manage high blood pressure?",
+        "response": "Manage high blood pressure by adopting a healthy lifestyle including a balanced diet, regular physical activity, weight management, limiting alcohol intake, reducing sodium consumption, and taking prescribed medications as directed."
+      },
+      {
+        "input": "What are the signs of preterm labor?",
+        "response": "Signs of preterm labor include regular contractions, menstrual-like cramps, low backache, pelvic pressure, changes in vaginal discharge, and abdominal cramps. Seek immediate medical attention if you experience these symptoms."
+      },
+      {
+        "input": "How can I promote physical activity in teenagers?",
+        "response": "Promote physical activity in teenagers by encouraging participation in sports, outdoor activities, or fitness classes, limiting screen time, setting a positive example with your own physical activity habits, and making exercise fun and social."
+      },
+      {
+        "input": "What are the signs of a concussion?",
+        "response": "Signs of a concussion include headache, nausea or vomiting, dizziness, confusion or memory problems, sensitivity to light or noise, and changes in mood or behavior. Rest and medical evaluation are essential for recovery."
+      }
+    ],
+    "plans" :[
+      {
+        "input": "Basic Health Plan",
+        "response": "This plan covers essential healthcare needs including doctor visits, prescriptions, and preventive care.",
+        "cost": "$100/month",
+        "coverage": "Includes primary care, emergency services, and hospitalization.",
+        "deductible": "$500",
+        "copay": "$20",
+        "provider": "Healthcare Provider A"
+      },
+      {
+        "name": "Family Health Plan",
+        "description": "Comprehensive plan for families with coverage for routine check-ups, dental, and vision care.",
+        "cost": "$200/month",
+        "coverage": "Covers pediatric care, maternity services, and mental health treatment.",
+        "deductible": "$1000",
+        "copay": "$30",
+        "provider": "Healthcare Provider B"
+      },
+      {
+        "name": "Senior Care Plan",
+        "description": "Tailored plan for seniors with specialized care options and long-term care services.",
+        "cost": "$150/month",
+        "coverage": "Includes elder care, prescription drugs, and home health services.",
+        "deductible": "$800",
+        "copay": "$25",
+        "provider": "Healthcare Provider C"
+      },
+      {
+        "name": "Dental Care Plan",
+        "description": "Focused plan covering dental procedures such as cleanings, fillings, and orthodontics.",
+        "cost": "$50/month",
+        "coverage": "Includes routine exams, X-rays, and major dental work.",
+        "deductible": "None",
+        "copay": "Varies by service",
+        "provider": "Dental Provider A"
+      },
+      {
+        "name": "Mental Health Plan",
+        "description": "Plan offering mental health services including therapy and counseling sessions.",
+        "cost": "$75/month",
+        "coverage": "Covers individual and group therapy, substance abuse treatment, and psychiatric care.",
+        "deductible": "$300",
+        "copay": "$15",
+        "provider": "Mental Health Provider A"
+      },
+      {
+        "name": "Vision Care Plan",
+        "description": "Plan for routine eye exams, corrective lenses, and vision correction surgery.",
+        "cost": "$30/month",
+        "coverage": "Includes eyeglasses, contact lenses, and Lasik surgery.",
+        "deductible": "$200",
+        "copay": "$10",
+        "provider": "Vision Provider A"
+      },
+      {
+        "name": "Emergency Care Plan",
+        "description": "High-deductible plan for catastrophic events requiring emergency room care and hospitalization.",
+        "cost": "$50/month",
+        "coverage": "Covers ambulance services, intensive care, and surgery.",
+        "deductible": "$5000",
+        "copay": "$50",
+        "provider": "Healthcare Provider D"
+      },
+      {
+        "name": "Fitness and Wellness Plan",
+        "description": "Plan promoting fitness activities, wellness programs, and nutritional counseling.",
+        "cost": "$80/month",
+        "coverage": "Includes gym memberships, personal training sessions, and diet consultations.",
+        "deductible": "$400",
+        "copay": "$20",
+        "provider": "Wellness Provider A"
+      },
+      {
+        "name": "Chronic Care Plan",
+        "description": "Plan for managing chronic conditions such as diabetes, hypertension, and arthritis.",
+        "cost": "$120/month",
+        "coverage": "Covers specialist visits, medications, and durable medical equipment.",
+        "deductible": "$1000",
+        "copay": "$30",
+        "provider": "Healthcare Provider E"
+      },
+      {
+        "name": "Women's Health Plan",
+        "description": "Comprehensive plan for women's health needs including reproductive health and mammograms.",
+        "cost": "$90/month",
+        "coverage": "Includes prenatal care, birth control, and gynecological exams.",
+        "deductible": "$600",
+        "copay": "$25",
+        "provider": "Healthcare Provider F"
+      }
+    ]
+
+  }
+  

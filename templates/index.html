@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="header">
+            <div class="welcome-message">Welcome, {{ username }}!</div>
+            <a href="#" class="logout" id="logoutBtn">
+                <i class="fas fa-sign-out-alt"></i> Logout
+            </a>
+        </div>
+        <div class="messages" id="messages">
+            <!-- Messages will be dynamically added here -->
+        </div>
+        <div class="input-container">
+            <input type="text" id="userInput" placeholder="Type your message here..." onkeydown="handleKeyPress(event)">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const welcomeMessage = "{{ welcome_message }}";
+            const messagesDiv = document.getElementById('messages');
+
+            if (welcomeMessage) {
+                messagesDiv.innerHTML += `<div class="message bot-message"><strong>Bot:</strong> ${welcomeMessage}</div>`;
+            }
+
+            const chatContainer = document.querySelector('.chat-container');
+            chatContainer.classList.add('fade-in');
+
+            // Handle logout animation
+            const logoutBtn = document.getElementById('logoutBtn');
+            logoutBtn.addEventListener('click', function(event) {
+                event.preventDefault();
+                chatContainer.classList.remove('fade-in');
+                chatContainer.classList.add('fade-out');
+                setTimeout(function() {
+                    window.location.href = "{{ url_for('logout') }}";
+                }, 500); // Adjust timing as needed
+            });
+        });
+
+        function sendMessage() {
+            const userInput = document.getElementById('userInput').value;
+            if (userInput.trim() === '') return;
+
+            const messagesDiv = document.getElementById('messages');
+            messagesDiv.innerHTML += `<div class="message user-message"><strong>You:</strong> ${userInput}</div>`;
+            document.getElementById('userInput').value = '';
+            messagesDiv.scrollTop = messagesDiv.scrollHeight;
+
+            fetch('/chatbot', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ input: userInput }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                const botResponse = data.response;
+                messagesDiv.innerHTML += `<div class="message bot-message"><strong>Bot:</strong> ${botResponse}</div>`;
+                messagesDiv.scrollTop = messagesDiv.scrollHeight;
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        }
+
+        function handleKeyPress(event) {
+            if (event.key === 'Enter') {
+                sendMessage();
+            }
+        }
+    </script>
+</body>
+</html>

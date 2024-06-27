@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Confirmation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/register_confirmation.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="form-container">
+        <div class="icon-container">
+            <i class="fas fa-check-circle"></i>
+        </div>
+        <h1>Registration Confirmed</h1>
+        <p>Thank you, {{ username }}, for registering!</p>
+        <p>Your account has been successfully created.</p>
+        <div class="login-link">
+            <p><a href="/login">Click here to login</a></p>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const formContainer = document.querySelector('.form-container');
+            formContainer.classList.add('fade-in');
+
+            const iconContainer = document.querySelector('.icon-container i');
+            iconContainer.classList.add('bounce');
+        });
+    </script>
+</body>
+</html>
